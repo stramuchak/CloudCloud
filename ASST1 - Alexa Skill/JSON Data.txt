@@ -1,0 +1,60 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "cloud cloud",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "ListTeamMembers",
+                    "slots": [],
+                    "samples": [
+                        "List the team members",
+                        "List my team members",
+                        "Who are the team members",
+                        "Who's on my team",
+                        "Who are my team members"
+                    ]
+                },
+                {
+                    "name": "ListClassRankings",
+                    "slots": [],
+                    "samples": [
+                        "What are the class rankings of my teammates",
+                        "List my team members' class rankings",
+                        "What are the class rankings of my team members"
+                    ]
+                },
+                {
+                    "name": "AssignmentDueDate",
+                    "slots": [],
+                    "samples": [
+                        "First assignment due date",
+                        "What is the due date of our first assignment",
+                        "When's the alexa skills assignment due",
+                        "When is our first assignment due"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
